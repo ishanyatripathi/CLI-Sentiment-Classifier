@@ -1,9 +1,9 @@
 # main.py
 
 from langgraph.graph import StateGraph, END
-from nodes.inference_node import InferenceNode
-from nodes.check_confidence_node import ConfidenceCheckNode
-from nodes.fallback_node import FallbackNode
+from node.inference_node import InferenceNode
+from node.check_confidence_node import ConfidenceCheckNode
+from node.fallback_node import FallbackNode
 from dataclasses import dataclass
 import datetime
 import os
